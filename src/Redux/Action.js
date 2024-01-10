@@ -1,10 +1,10 @@
 import { ADD_BOOKING, DELETE_BOOKING } from "./ActionTypes"
 
 
-export const addBooking =({bookings})=>{
+export const addBooking =(bookingData)=>{
     return {
         type:ADD_BOOKING,
-        payload:{bookings},
+        payload:bookingData,
     }
 }
 
